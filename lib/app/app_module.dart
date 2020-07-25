@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'views/view.dart';
+
 class Vhelp2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -10,7 +12,7 @@ class Vhelp2 extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: Container(),
+      home: ViewTeste(),
     );
   }
 }
